@@ -1,5 +1,5 @@
 {
-  "name": "pixi-spine-parent",
+  "name": "pixi-spine",
   "version": "3.0.0",
   "description": "Parent package for pixi-spine",
   "main": "index.js",
@@ -25,8 +25,8 @@
     "@rollup/plugin-commonjs": "^24.0.0",
     "@rollup/plugin-node-resolve": "^15.0.1",
     "@rollup/plugin-replace": "^5.0.2",
-    "eslint": "^8.3.1",
-    "eslint-config-prettier": "^8.5.0",
+    "eslint": "^8.44.0",
+    "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^4.2.1",
     "install": "^0.13.0",
     "lerna": "^6.4.0",
@@ -37,7 +37,7 @@
     "rollup": "^3.9.1",
     "rollup-plugin-esbuild": "^5.0.0",
     "rollup-plugin-string": "^3.0.0",
-    "typescript": "~4.9.0"
+    "typescript": "^5.1.6"
   },
   "license": "SEE SPINE-LICENSE"
 }
