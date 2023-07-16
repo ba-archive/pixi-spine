@@ -7,4 +7,5 @@ export * from './Spine';
 export * from './versions';
 
 // Install the loader
-new SpineLoader().installLoader();
+// @ts-ignore
+window.spineLoader = new SpineLoader().installLoader();

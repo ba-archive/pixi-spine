@@ -108,3 +108,5 @@ export const makeSpineTextureAtlasLoaderFunctionFromPixiLoaderObject = (loader: 
 };
 
 extensions.add(spineTextureAtlasLoader);
+// @ts-ignore
+window.spineTextureAtlasLoader = spineTextureAtlasLoader;
