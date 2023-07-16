@@ -16,6 +16,8 @@
         "declaration": false,
         "declarationMap": false,
         "allowSyntheticDefaultImports": true,
+        "ignoreDeprecations": "5.0",
+        "skipLibCheck": true,
         "importsNotUsedAsValues": "error",
         "lib": [
             "es6",

@@ -46,7 +46,9 @@ export abstract class SpineLoaderAbstract<SKD extends ISkeletonData> {
 
                 async load<SPINEBINARY>(url: string): Promise<SPINEBINARY> {
                     const response = await settings.ADAPTER.fetch(url);
-
+                    if (response.status < 200 || response.status >= 400) {
+                        throw new Error(`Load fail, status code ${response.status}`);
+                    }
                     const buffer = await response.arrayBuffer();
 
                     return buffer as SPINEBINARY;
