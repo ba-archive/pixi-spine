@@ -19,6 +19,9 @@
     "bundles/*",
     "tools/*"
   ],
+  "publishConfig": {
+    "registry": "https://ba-archive-npm.pkg.coding.net/blue-archive/ba"
+  },
   "devDependencies": {
     "@microsoft/api-extractor": "^7.33.7",
     "@pixi/eslint-config": "^4.0.1",
