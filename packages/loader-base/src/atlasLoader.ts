@@ -5,7 +5,7 @@ import type { ISpineMetadata } from './SpineLoaderAbstract';
 
 type RawAtlas = string;
 
-const spineTextureAtlasLoader: AssetExtension<RawAtlas | TextureAtlas, ISpineMetadata> = {
+export const spineTextureAtlasLoader: AssetExtension<RawAtlas | TextureAtlas, ISpineMetadata> = {
     extension: ExtensionType.Asset,
 
     // cache: {

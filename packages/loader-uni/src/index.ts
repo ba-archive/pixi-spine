@@ -9,3 +9,4 @@ export * from './versions';
 // Install the loader
 // @ts-ignore
 window.spineLoader = new SpineLoader().installLoader();
+export { SpineLoader };
