@@ -1,6 +1,6 @@
 {
   "name": "@pixi-spine/loader-base",
-  "version": "4.2.21-ba",
+  "version": "4.2.22-ba",
   "description": "Pixi loader middleware base",
   "main": "lib/index.js",
   "module": "lib/index.mjs",
