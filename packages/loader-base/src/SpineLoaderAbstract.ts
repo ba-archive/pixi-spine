@@ -38,6 +38,7 @@ export abstract class SpineLoaderAbstract<SKD extends ISkeletonData> {
                 extension: {
                     type: ExtensionType.LoadParser,
                     priority: LoaderParserPriority.Normal,
+                    name: "pixi-spine-skel-loader",
                 },
 
                 // #region Downloading skel buffer data
