@@ -5,7 +5,7 @@ import type { ISpineMetadata } from './SpineLoaderAbstract';
 
 type RawAtlas = string;
 
-const spineTextureAtlasLoader: AssetExtension<RawAtlas | TextureAtlas, ISpineMetadata> = {
+export const spineTextureAtlasLoader: AssetExtension<RawAtlas | TextureAtlas, ISpineMetadata> = {
     extension: ExtensionType.Asset,
 
     // cache: {
@@ -17,6 +17,7 @@ const spineTextureAtlasLoader: AssetExtension<RawAtlas | TextureAtlas, ISpineMet
         extension: {
             type: ExtensionType.LoadParser,
             priority: LoaderParserPriority.Normal,
+            name: 'pixi-spine-atlas-loader',
         },
 
         test(url: string): boolean {
