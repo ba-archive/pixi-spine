@@ -1,7 +1,7 @@
 {
-  "name": "pixi-spine-parent",
+  "name": "pixi-spine",
   "private": true,
-  "description": "Parent package for pixi-spine",
+  "description": "pixi-spine for blue-archive.io, forked from pixi-spine",
   "scripts": {
     "clean": "lerna run clean",
     "build": "lerna run build",
@@ -10,8 +10,8 @@
     "lint": "lerna run lint",
     "lint:fix": "lerna run lint:fix",
     "prepublishOnly": "lerna run build",
-    "lernaPublish": "lerna publish --no-private",
-    "lernaPublish:fromPackage": "lerna publish from-package --no-private",
+    "lernaPublish": "lerna publish --no-private --registry=https://ba-archive-npm.pkg.coding.net/blue-archive/ba/",
+    "lernaPublish:fromPackage": "lerna publish from-package --no-private --registry=https://ba-archive-npm.pkg.coding.net/blue-archive/ba/",
     "createTestBundles": "lerna run testBundle"
   },
   "workspaces": [
