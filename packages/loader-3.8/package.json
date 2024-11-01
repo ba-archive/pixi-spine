@@ -1,6 +1,6 @@
 {
   "name": "@pixi-spine/loader-3.8",
-  "version": "4.0.4",
+  "version": "4.2.21-ba",
   "description": "Pixi loader middleware for spine 3.8 models",
   "main": "lib/index.js",
   "module": "lib/index.mjs",
@@ -50,9 +50,9 @@
   },
   "homepage": "https://github.com/pixijs/pixi-spine/#readme",
   "devDependencies": {
+    "@pixi-spine/loader-base": "^4.2.21-ba",
     "@pixi-spine/rollup-config": "*",
-    "@pixi-spine/loader-base": "^4.0.4",
-    "@pixi-spine/runtime-3.8": "^4.0.4"
+    "@pixi-spine/runtime-3.8": "^4.2.21-ba"
   },
   "nx": {}
 }
