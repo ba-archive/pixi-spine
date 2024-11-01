@@ -1,5 +1,5 @@
 {
-  "version": "4.2.24-ba",
+  "version": "4.2.25-ba",
   "command": {
     "publish": {
       "graphType": "all"
