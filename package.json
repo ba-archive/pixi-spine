@@ -1,7 +1,6 @@
 {
-  "name": "pixi-spine-parent",
-  "private": true,
-  "description": "Parent package for pixi-spine",
+  "name": "pixi-spine",
+  "description": "pixi-spine package for blue-archive.io",
   "scripts": {
     "clean": "lerna run clean",
     "build": "lerna run build",

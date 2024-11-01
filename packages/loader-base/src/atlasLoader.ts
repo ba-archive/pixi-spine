@@ -17,6 +17,7 @@ const spineTextureAtlasLoader: AssetExtension<RawAtlas | TextureAtlas, ISpineMet
         extension: {
             type: ExtensionType.LoadParser,
             priority: LoaderParserPriority.Normal,
+            name: 'pixi-spine-atlas-loader',
         },
 
         test(url: string): boolean {
